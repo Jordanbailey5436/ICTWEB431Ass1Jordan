@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Konica Minolta Copiers</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        .navbar {
+            background-color: #1e3a5f;
+            padding: 15px;
+        }
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+        }
+        .navbar a:hover {
+            text-decoration: underline;
+        }
+        .content {
+            padding: 50px;
+        }
+        .product, .feedback-form {
+            background-color: white;
+            padding: 20px;
+            margin: 20px auto;
+            width: 60%;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        .product img {
+            width: 100%;
+            max-width: 400px;
+            display: block;
+            margin: 0 auto;
+        }
+        .buy-button, .submit-button {
+            background-color: #1e3a5f;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+            margin-top: 10px;
+        }
+        .buy-button:hover, .submit-button:hover {
+            background-color: #142a42;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        input, textarea {
+            width: 80%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Konica Minolta Copiers</h1>
+    <div class="navbar">
+        <a href="contact.html">Contact Us</a>
+        <a href="index.html" onclick="location.reload(); return false;">Product Page</a>
+        <a href="feedback.html">Feedback</a>
+    </div>
+    <div class="content">
+        <div class="product">
+            <h2>Konica Minolta C650i</h2>
+            <img src="downloads/bizhubC650inofinisher.webp" alt="Konica Minolta C650i">
+            <p><strong>Specifications:</strong></p>
+            <ul>
+                <li>Print Speed: 65 ppm</li>
+                <li>Resolution: 1200 x 1200 dpi</li>
+                <li>Paper Capacity: Up to 6,650 sheets</li>
+                <li>Automatic Duplex Printing</li>
+                <li>Advanced Security Features</li>
+            </ul>
+            <p>The Konica Minolta C650i is a high-performance, efficient copier designed for modern offices. With its superior print quality, fast output speed, and advanced security, it is perfect for businesses of all sizes.</p>
+            <p><strong>Price: $5,999</strong></p>
+            <button class="buy-button">Buy Now</button>
+        </div>
+    </div>
+</body>
+</html>
